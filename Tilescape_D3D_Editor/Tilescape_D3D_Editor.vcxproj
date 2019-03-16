@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C91AF601-5E19-4827-8B03-10A0111C3344}</ProjectGuid>
+    <RootNamespace>Tilescape_D3D_Editor</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.27625.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;D3D_DEBUG_INFO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Boundary_Class.cpp" />
+    <ClCompile Include="Buffer_Class.cpp" />
+    <ClCompile Include="Button_Class.cpp" />
+    <ClCompile Include="Button_Controller_Class.cpp" />
+    <ClCompile Include="Button_Functions.cpp" />
+    <ClCompile Include="Cube_Class.cpp" />
+    <ClCompile Include="D3D_AllocHierarchy.cpp" />
+    <ClCompile Include="D3D_Mesh.cpp" />
+    <ClCompile Include="Dig_Tool_Class.cpp" />
+    <ClCompile Include="Frustum_Class.cpp" />
+    <ClCompile Include="HeliCam_Class.cpp" />
+    <ClCompile Include="InitD3D.cpp" />
+    <ClCompile Include="Light_Controller.cpp" />
+    <ClCompile Include="LoadBitmap2.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Mesh_Class.cpp" />
+    <ClCompile Include="Mesh_Controller.cpp" />
+    <ClCompile Include="Normal_Class.cpp" />
+    <ClCompile Include="Object_Class.cpp" />
+    <ClCompile Include="Object_Controller.cpp" />
+    <ClCompile Include="Path_Class.cpp" />
+    <ClCompile Include="Polygon.cpp" />
+    <ClCompile Include="Polygon_Class.cpp" />
+    <ClCompile Include="Texture_Controller.cpp" />
+    <ClCompile Include="Tile_Class.cpp" />
+    <ClCompile Include="Tile_Controller_Class.cpp" />
+    <ClCompile Include="Tile_Picker_Class.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Boundary_Class.h" />
+    <ClInclude Include="Buffer_Class.h" />
+    <ClInclude Include="Button_Class.h" />
+    <ClInclude Include="Button_Controller_Class.h" />
+    <ClInclude Include="Button_Functions.h" />
+    <ClInclude Include="CommDef.h" />
+    <ClInclude Include="Cube_Class.h" />
+    <ClInclude Include="D3D_AllocHierarchy.h" />
+    <ClInclude Include="D3D_Mesh.h" />
+    <ClInclude Include="Dig_Tool_Class.h" />
+    <ClInclude Include="FileDef.h" />
+    <ClInclude Include="Frustum_Class.h" />
+    <ClInclude Include="HeliCam_Class.h" />
+    <ClInclude Include="InitD3D.h" />
+    <ClInclude Include="IPolygon_Class.h" />
+    <ClInclude Include="KEY_CODES.h" />
+    <ClInclude Include="Light_Controller.h" />
+    <ClInclude Include="LoadBitmap2.h" />
+    <ClInclude Include="Material_Controller_Class.h" />
+    <ClInclude Include="Mesh_Class.h" />
+    <ClInclude Include="Mesh_Controller.h" />
+    <ClInclude Include="Normal_Class.h" />
+    <ClInclude Include="Object_Class.h" />
+    <ClInclude Include="Object_Controller.h" />
+    <ClInclude Include="Path_Class.h" />
+    <ClInclude Include="Player_Class.h" />
+    <ClInclude Include="Polygon.h" />
+    <ClInclude Include="Polygon_Class.h" />
+    <ClInclude Include="QNode.h" />
+    <ClInclude Include="Shop_Object.h" />
+    <ClInclude Include="Texture_Class.h" />
+    <ClInclude Include="Texture_Controller.h" />
+    <ClInclude Include="Tile_Class.h" />
+    <ClInclude Include="Tile_Controller_Class.h" />
+    <ClInclude Include="Tile_Picker_Class.h" />
+    <ClInclude Include="Vertex.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

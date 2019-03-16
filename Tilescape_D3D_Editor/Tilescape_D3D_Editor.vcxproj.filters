@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Structure">
+      <UniqueIdentifier>{30abe2a5-7048-4290-88b4-f26febe87435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structure\Buttons">
+      <UniqueIdentifier>{d7b8ad14-385c-4562-bd67-91e014790329}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structure\Mesh">
+      <UniqueIdentifier>{77f9633e-7c0d-448b-b002-f549385b7d77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structure\Other">
+      <UniqueIdentifier>{e3e28e33-dffe-41cd-9d06-a20b4e714273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structure\Object">
+      <UniqueIdentifier>{d62edf3d-8576-4e41-9de2-09df122dbddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structure\Object\Enemies">
+      <UniqueIdentifier>{475fbdbc-8f27-40ab-a641-9e701ebbacbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structure\Object\Player">
+      <UniqueIdentifier>{5d752f0a-92b9-462e-868c-d02687381315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Project">
+      <UniqueIdentifier>{52d82de6-6974-4bde-9cdf-e75509a20e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Project\Menu_Classes">
+      <UniqueIdentifier>{0b123fe4-768d-45b9-8274-19c7e65f214f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Project\Tiles">
+      <UniqueIdentifier>{e833ea3b-4dd1-4b19-aa3b-23b659ebb9cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Project\Paths">
+      <UniqueIdentifier>{adce9816-0c22-45b3-9c46-dba7ec5a6f81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{0efab6e6-df75-4030-8a8c-7c76ad097f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Control">
+      <UniqueIdentifier>{a274510b-fa7d-4673-a2a7-883e0af11e13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{0c68215f-a96d-438b-bb88-9fb35e020f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{15f5146c-d489-4884-827a-3b4f7b8e4ca8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Control">
+      <UniqueIdentifier>{22c4e04d-d115-4bff-b578-365b6068b762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{6b609aad-511d-48ba-815b-2e18fe05212e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Project">
+      <UniqueIdentifier>{06e6fa46-a7c3-424a-ab05-9ba6ff3376dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Project\Tiles">
+      <UniqueIdentifier>{8149517e-6de6-426d-a0a3-1634b94f9ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Project\Menu_Classes">
+      <UniqueIdentifier>{5a028889-beab-404c-9191-eca7163cf888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Project\Paths">
+      <UniqueIdentifier>{8367cbd6-d748-4ef6-bafc-5baa4c1fba48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure">
+      <UniqueIdentifier>{89002cab-08f3-49f5-88fc-c6250ebc5a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure\Buttons">
+      <UniqueIdentifier>{d67c1c53-dc77-45f4-bc35-b771e10b9a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure\Mesh">
+      <UniqueIdentifier>{f9889afc-80c8-4144-a276-e949bd82427b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure\Other">
+      <UniqueIdentifier>{4332749e-40c1-4135-9c81-1468085bf5dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure\Object">
+      <UniqueIdentifier>{e537576a-002f-4248-8f48-b068d0c1fc6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure\Object\Player">
+      <UniqueIdentifier>{d9a80eb3-a054-4fcc-a760-92062405a277}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure\Object\Enemies">
+      <UniqueIdentifier>{488eeb3c-1bef-4ec9-aeb8-6652ed4022c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structure\Object\Shop">
+      <UniqueIdentifier>{4e8ef349-8b5b-4438-b2e6-b48c6e03feef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{f2ba010c-d9e2-4cea-bed8-279526a81907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Def">
+      <UniqueIdentifier>{93eddba2-f12b-44f1-a08f-06b202803eef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_Class.cpp">
+      <Filter>Source Files\Structure\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D_AllocHierarchy.cpp">
+      <Filter>Source Files\Structure\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D_Mesh.cpp">
+      <Filter>Source Files\Structure\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh_Class.cpp">
+      <Filter>Source Files\Structure\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer_Class.cpp">
+      <Filter>Source Files\Structure\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Class.cpp">
+      <Filter>Source Files\Structure\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_Functions.cpp">
+      <Filter>Source Files\Project\Menu_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Dig_Tool_Class.cpp">
+      <Filter>Source Files\Project\Menu_Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile_Class.cpp">
+      <Filter>Source Files\Project\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile_Controller_Class.cpp">
+      <Filter>Source Files\Project\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile_Picker_Class.cpp">
+      <Filter>Source Files\Project\Tiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Path_Class.cpp">
+      <Filter>Source Files\Project\Paths</Filter>
+    </ClCompile>
+    <ClCompile Include="Boundary_Class.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube_Class.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustum_Class.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal_Class.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon_Class.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Button_Controller_Class.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Light_Controller.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh_Controller.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Controller.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture_Controller.cpp">
+      <Filter>Source Files\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="HeliCam_Class.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="InitD3D.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadBitmap2.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeliCam_Class.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Controller_Class.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Light_Controller.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Material_Controller_Class.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh_Controller.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Controller.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Controller.h">
+      <Filter>Header Files\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Boundary_Class.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube_Class.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustum_Class.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="IPolygon_Class.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal_Class.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon_Class.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="QNode.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile_Class.h">
+      <Filter>Header Files\Project\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile_Controller_Class.h">
+      <Filter>Header Files\Project\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile_Picker_Class.h">
+      <Filter>Header Files\Project\Tiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Functions.h">
+      <Filter>Header Files\Project\Menu_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Dig_Tool_Class.h">
+      <Filter>Header Files\Project\Menu_Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Path_Class.h">
+      <Filter>Header Files\Project\Paths</Filter>
+    </ClInclude>
+    <ClInclude Include="Button_Class.h">
+      <Filter>Header Files\Structure\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D_AllocHierarchy.h">
+      <Filter>Header Files\Structure\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D_Mesh.h">
+      <Filter>Header Files\Structure\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh_Class.h">
+      <Filter>Header Files\Structure\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer_Class.h">
+      <Filter>Header Files\Structure\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture_Class.h">
+      <Filter>Header Files\Structure\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Class.h">
+      <Filter>Header Files\Structure\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player_Class.h">
+      <Filter>Header Files\Structure\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop_Object.h">
+      <Filter>Header Files\Structure\Object\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="InitD3D.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadBitmap2.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="CommDef.h">
+      <Filter>Def</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDef.h">
+      <Filter>Def</Filter>
+    </ClInclude>
+    <ClInclude Include="KEY_CODES.h">
+      <Filter>Def</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
